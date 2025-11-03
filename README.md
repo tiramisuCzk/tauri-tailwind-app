@@ -17,6 +17,12 @@
 ├── public/
 ├── src/
 │   ├── assets/
+│   │   ├── css/
+│   │   │   └── tailwind.css
+│   │   ├── main.css
+│   │   └── vue.svg
+│   ├── components/
+│   │   └── TestComponent.vue
 │   ├── App.vue
 │   ├── main.ts
 │   └── vite-env.d.ts
@@ -43,8 +49,11 @@
 
 - `App.vue`: 主应用程序组件
 - `main.ts`: 应用程序入口文件，初始化 Vue 应用并挂载到 DOM
+- `components/`: Vue 组件目录
+  - `TestComponent.vue`: 示例组件，展示 Tailwind CSS 样式用法
 - `assets/`: 静态资源目录，包含样式文件和图像
-  - `main.css`: 全局样式文件，包含 Tailwind 指令
+  - `css/tailwind.css`: Tailwind CSS 指令文件
+  - `main.css`: 全局样式文件
   - `vue.svg`: Vue logo 图标
 
 ### src-tauri/ 目录
